@@ -1,7 +1,11 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Here I say Hello</router-link> |
+    <router-link to="/answer"
+      >J'ai adoré le texte de votre annonce, elle méritait que je lui consacre
+      quelques instants, cliquez pour voir ma réponse!</router-link
+    >
+    <router-link to="/me">Si j'ai su éveiller votre curiosité:</router-link>
   </nav>
   <router-view />
 </template>
