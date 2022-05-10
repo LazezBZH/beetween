@@ -24,12 +24,12 @@ export default {
 <style scoped>
 .logoB {
   width: 25%;
-  margin: 8rem auto;
+  margin: -5rem auto;
   position: absolute;
   left: 40%;
-  -webkit-animation: spin 1s linear 5;
-  -moz-animation: spin 1s linear 5;
-  animation: spin 1s linear 5;
+  -webkit-animation: spin 1s linear 2;
+  -moz-animation: spin 1s linear 2;
+  animation: spin 1s linear 2;
   z-index: -1;
 }
 @-moz-keyframes spin {
@@ -51,6 +51,6 @@ export default {
 }
 
 .home {
-  margin-bottom: 35rem;
+  margin-bottom: 16rem;
 }
 </style>
