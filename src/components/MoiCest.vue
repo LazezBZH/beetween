@@ -10,7 +10,7 @@
         />
         <text font size="35px">
           <textPath id="chemin" href="#vague" startOffset="100" fill="#d23b38">
-            Je suis / I am / Ich bin: Bénédicte Hérault
+            Je suis Bénédicte Hérault
           </textPath>
         </text>
       </svg>
@@ -28,13 +28,14 @@ export default {
 
 <style scoped>
 .moi {
-  width: 18rem;
-  margin: -13rem auto auto 55rem;
+  width: 12rem;
+  margin: -10rem auto auto auto;
   border-radius: 50%;
   -webkit-animation: spin 300ms linear 4;
   -moz-animation: spin 300ms linear 4;
   animation: spin 300ms linear 4;
   z-index: -1;
+  float: right;
 }
 @-moz-keyframes spin {
   100% {
@@ -57,8 +58,23 @@ export default {
   font-size: 4rem;
 }
 .moi2 {
-  display: flex;
-  margin-top: -2rem;
-  justify-content: space-around;
+  width: 60%;
+  margin-top: -10rem;
+  margin-left: 5rem;
+}
+@media (max-width: 1060px) {
+  .moi {
+    width: 8rem;
+    margin: -7rem auto auto -7rem;
+  }
+}
+@media (max-width: 750px) {
+  .moi {
+    width: 5rem;
+    margin: 0rem auto auto -7rem;
+  }
+  #chemin {
+    font-size: 6rem;
+  }
 }
 </style>

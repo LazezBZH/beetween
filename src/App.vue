@@ -23,11 +23,13 @@
 
 <style>
 #app {
+  max-width: 1500px;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  margin: auto;
 }
 
 nav {
@@ -52,5 +54,17 @@ nav a.router-link-exact-active {
 }
 .routerLink {
   padding: 0.5rem;
+}
+@media (max-width: 750px) {
+  nav {
+    width: 90%;
+  }
+}
+@media (max-width: 425px) {
+  nav {
+    width: 50%;
+    margin-left: 0.5rem;
+    flex-direction: column;
+  }
 }
 </style>

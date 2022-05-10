@@ -23,10 +23,10 @@ export default {
 </script>
 <style scoped>
 .logoB {
-  width: 25%;
-  margin: -5rem auto;
+  width: 15%;
+  margin: -7rem auto;
   position: absolute;
-  left: 40%;
+  left: 42%;
   -webkit-animation: spin 1s linear 2;
   -moz-animation: spin 1s linear 2;
   animation: spin 1s linear 2;
@@ -52,5 +52,19 @@ export default {
 
 .home {
   margin-bottom: 16rem;
+}
+@media (max-width: 750px) {
+  .logoB {
+    width: 15%;
+    margin: 2rem auto;
+  }
+}
+@media (max-width: 425px) {
+  .logoB {
+    width: 30%;
+    margin: 0;
+    position: absolute;
+    left: 22%;
+  }
 }
 </style>
