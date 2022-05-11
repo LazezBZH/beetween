@@ -416,7 +416,13 @@
           >
         </li>
         <li>
-          Chèques cadeaux 🎁 à Noël (là pour le coup c'est cadeau)
+          Chèques cadeaux
+          <Tooltip
+            position="top"
+            content="Inutile de la survoler, c'est vous qui avez mis cette icone!"
+            image="piege.jpeg"
+            ><span> 🎁 </span></Tooltip
+          >à Noël (là pour le coup c'est cadeau)
           <Tooltip
             position="top"
             content="Merci ô toi vieillard à la barbe blanche!"
