@@ -55,9 +55,13 @@ nav a.router-link-exact-active {
 .routerLink {
   padding: 0.5rem;
 }
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   nav {
     width: 90%;
+    margin: auto;
+  }
+  #app {
+    width: 100%;
   }
 }
 @media (max-width: 425px) {
